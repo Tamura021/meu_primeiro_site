@@ -1,0 +1,58 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form,
+input {
+  width: 100px;
+}
+
+form,
+label {
+  margin-top: 10px;
+}
+
+.container {
+  width: 100px;
+  heigth: 50px;
+  border: 2px solid black;
+  padding: 30px;
+  margin: 30px;
+  color: rgba(0, 0, 0, 0.993);
+}
+
+body {
+  background-image: url(./img/artworks-tZ7aDyK7PbbMpcf0-z7o8vg-t500x500.jpg);
+  background-size: cover;
+}
+.texto {
+  font-size: 18px;
+  font-family: Arrial, sans-serif;
+  text-align: center;
+  line-height: 1.5;
+}
+/* .email {
+        width:200px;
+        heigth:100px;
+        border: 1px solid black;
+        padding:     20px;
+        margin: 10px;
+        color:rgba(0, 0, 0, 0.993);
+        } */
+
+/* .container {
+        display: flex;
+        justify-content: corner;
+        align-items: center;
+        height: 200px; */
+
+/* }
+        .senha {
+        width:200px;
+        heigth:100px;
+        border: 1px solid black;
+        padding:     20px;
+        margin: 10px;
+        color:rgba(0, 0, 0, 0.993);
+        } */
