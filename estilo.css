@@ -6,13 +6,16 @@ header {
   gap: 70px;
   margin-right: 30px;
 }
-.LW {
+.Login {
   width: 1370px;
+  color: rgb(81, 124, 255);
+  
 }
 
 #titulo {
   margin-left: 20px;
 }
+
 form {
   display: flex;
   flex-direction: column;
@@ -23,7 +26,7 @@ form input {
   width: 200px;
   height: 50px;
   border: none;
-  background: rgba(54, 107, 255, 0.356);
+  background: rgba(15, 71, 228, 0.356);
 }
 
 input::placeholder {
@@ -47,6 +50,9 @@ label {
   padding: 5px;
   width: 50%;
   height: 100%;
+  display: flex;
+  justify-content: center;
+
 }
 
 .direita {
@@ -58,19 +64,15 @@ label {
   align-items: center;
 }
 
-.img {
-  padding: 5px;
-  display: flex;
-  justify-content: center;
-  width: 450px;
-  height: 450px;
-}
+
 
 .img img {
-  border-radius: 50%;
   width: 100%;
-  height: 100%;
   object-fit: cover;
+    padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  height: 600px;
 }
 .esquerda {
   form input {
@@ -79,9 +81,26 @@ label {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 70vh;
+  height: 60vh;
+  align-items: center;
 }
 
 .texto {
   padding: 1em;
+}
+.btn {
+  width: 200px;
+  height: 40px;
+  background-color: rgb(81, 124, 255);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.texto {
+height: 30px;
+width: 180px;
+  color: rgb(81, 124, 255);
 }
